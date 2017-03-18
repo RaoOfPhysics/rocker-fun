@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+    rstudio:
+        build: .
+        image: raoofphysics/research # You can delete this image once you're done with Docker
+        container_name: amr_research # This container gets deleted when you run `$ docker-compose down`
+        ports:
+            - 8787:8787
+        volumes:
+            - .:/home/rstudio
