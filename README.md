@@ -7,7 +7,7 @@ A test repo for all my Docker+R (rocker) experimentation
 This is meant to be a testbed for my working environment with R.
 Ideally, it should get to the point where you clone this repo, fire up [Docker](https://www.docker.com/), and get [RStudio](https://www.rstudio.com/) running in your browser.
 The objective of this workflow is to make my research analyses reproducible, with minimum (no?) hindrances.
-The Docker image in question (`rocker/verse`, brought to you by the wonderful people behind [`rocker-org`](https://github.com/rocker-org)) should contain all the main dependencies needed to work with my code, and any additional packages needed will be installed automatically by `docker-compose` (am I allowed to do that?).
+The Docker image in question (`rocker/verse`, brought to you by the wonderful people behind [`rocker-org`](https://github.com/rocker-org)) should contain all the main dependencies needed to work with my code, and any additional packages needed will be installed automatically by instructions in the Dockerfile.
 
 ## Requirements
 
