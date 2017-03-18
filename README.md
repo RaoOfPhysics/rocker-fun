@@ -44,7 +44,7 @@ $ docker image rm raoofphysics/research
 
 - `/data`: all the datasets used in the analyses
 - `/output`: R Markdown files used for producing a variety of content [N.B.: In the final version, these subdirectories will in fact "git submodules", meaning that their content will be stored in separate git repository. To make changes to these projects and send them to me, you will have to refer to their respective `README.md` files.]
-    - `/notebooks`: R notebooks containing used both for exploration as well as generation of plots for posters etc.
+    - `/notebooks`: R notebooks containing code+context used for both exploration as well as generation of plots for posters etc.
     - `/papers`: journal papers and conference proceedings [directory names start with date (`YYYYMM`)]
     - `/presentations`: conference presentations and talks [directory names start with date (`YYYYMM`)]
     - `/thesis`: my doctoral thesis
