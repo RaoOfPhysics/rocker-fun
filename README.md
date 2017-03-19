@@ -23,8 +23,8 @@ Fire up a terminal, navigate to a directory where you would like to download thi
 ```bash
 $ git clone https://path.to/repo.git # Clone this git repo to your machine
 $ cd repo # Enter the git repository
-$ git submodule init # Initialise the git submodules (see below)
-$ git submodule update # Update the git submodules
+$ # git submodule init # Initialise the git submodules (see below)
+$ # git submodule update # Update the git submodules
 $ docker-compose up -d # Launch the Docker container named amr_research
 ```
 
