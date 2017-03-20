@@ -2,6 +2,12 @@
 
 A test repo for all my Docker+R (rocker) experimentation
 
+![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)
+![forthebadge](http://forthebadge.com/images/badges/no-ragrets.svg)
+![forthebadge](http://forthebadge.com/images/badges/uses-badges.svg)
+![forthebadge](http://forthebadge.com/images/badges/uses-git.svg)
+![forthebadge](http://forthebadge.com/images/badges/built-with-science.svg)
+
 ---
 
 This is meant to be a testbed for my working environment with R.
