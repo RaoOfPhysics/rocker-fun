@@ -27,11 +27,11 @@ The Docker image in question (`rocker/verse`, brought to you by the wonderful pe
 Fire up a terminal, navigate to a directory where you would like to download this repository, and follow these instructions:
 
 ```bash
-$ git clone https://path.to/repo.git # Clone this git repo to your machine
-$ cd repo # Enter the git repository
-$ # git submodule init # Initialise the git submodules (see below)
-$ # git submodule update # Update the git submodules
-$ docker-compose up -d # Launch the Docker container named amr_research
+git clone https://path.to/repo.git # Clone this git repo to your machine
+cd repo # Enter the git repository
+# git submodule init # Initialise the git submodules (see below)
+# git submodule update # Update the git submodules
+docker-compose up -d # Launch the Docker container named amr_research
 ```
 
 You then need to navigate you `localhost:8787` or `0.0.0.0:8787` in your browser, to see RStudio along with all the files from the repository.
@@ -40,10 +40,10 @@ To log in, use "`rstudio`" as both the username and password.
 When you're done playing around with the RStudio, close your browser window, and run:
 
 ```bash
-$ docker-compose down # Will stop and delete the container
+docker-compose down # Will stop and delete the container
 # Optional! If you want to delete the Docker image just created,
 # run the following command as well:
-$ docker image rm raoofphysics/research
+docker image rm raoofphysics/research
 ```
 
 ## Directory structure
